@@ -2,15 +2,14 @@ import { initializeApp } from "https://gstatic.com";
 import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, onAuthStateChanged } from "https://gstatic.com";
 import { getFirestore, collection, onSnapshot, query, orderBy } from "https://gstatic.com";
 
-// إعدادات الـ Firebase لتطبيق Trenda World
-// (ضع قيم مشروعك الحقيقية هنا بعد تسجيل تطبيق com.trendatlas.world)
+// إعدادات الـ Firebase الحقيقية لتطبيق Trenda World المستخرجة من ملفك
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_AUTH_DOMAIN",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_STORAGE_BUCKET",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
+    apiKey: "AIzaSyDGUcw247021A8HxGg3s1kbo2ZGNTARGNQ",
+    authDomain: "://firebaseapp.com",
+    projectId: "tawasol-8853b",
+    storageBucket: "tawasol-8853b.firebasestorage.app",
+    messagingSenderId: "629728672142",
+    appId: "1:629728672142:android:ef9d6a717e27bc11514cdf"
 };
 
 const app = initializeApp(firebaseConfig);
